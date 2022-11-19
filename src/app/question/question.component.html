@@ -1,0 +1,27 @@
+<div>
+  <input type="button" value="start exam" (click)="loadQuestionDetails()" />
+  <hr />
+  <div *ngIf="flag">
+    <div *ngFor="let q of questionInfo">
+      <div>{{q.qid}}) {{q.question}} ? </div>
+      <div>
+        <input type="radio" name={{q.qid}} value={{q.a}} (click)="storeAns(q.qid,q.a)" />{{q.a}}
+        <input type="radio" name={{q.qid}} value={{q.b}} (click)="storeAns(q.qid,q.b)" />{{q.b}}
+        <input type="radio" name={{q.qid}} value={{q.c}} (click)="storeAns(q.qid,q.c)" />{{q.c}}
+        <input type="radio" name={{q.qid}} value={{q.d}} (click)="storeAns(q.qid,q.d)" />{{q.d}}
+      </div>
+    </div>
+    <br/>
+    <input type="button" value="submit exam" (click)="submitExam()" /> <br/>
+    <label>Result: {{passingMarks}}</label> <br/>
+    <input type="button" value="Answers" (click)="reviewAnswer()" />
+    <div *ngIf="flagAnswer">
+      <div *ngFor="let a of anserInfo ">
+        <div>
+          <label> {{a.qid}} ) {{a.ans}}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

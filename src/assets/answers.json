@@ -1,0 +1,11 @@
+{
+  "answers": [
+    {"qid":1,"ans":"Machine Code"},
+    {"qid":2,"ans":"HyperText Markup language"},
+    {"qid":3,"ans":"Cascading style sheet"},
+    {"qid":4,"ans":"A High level language"},
+    {"qid":5,"ans":"Debugging"},
+    {"qid":6,"ans":"Machine code & Assembly"},
+    {"qid":7,"ans":"Assembler"}
+  ]
+}

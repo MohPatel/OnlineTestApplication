@@ -1,0 +1,11 @@
+{
+  "questions" : [
+    { "qid":1,"question":"what is the only thing that Computer understands","a":"Machine Code","b":"Low Level Languages","c":"High Level Languages","d":"Algorithms"},
+    { "qid":2,"question":"HTML","a":"HyperTool Markup Language","b":"HyperCompile Text Markup Language","c":"HyperText Makeup Language","d":"HyperText Markup language"},
+    { "qid":3,"question":"CSS","a":"Cascading super style","b":"Cascading style sheet","c":"Cascading shoot sheet","d":"Cascading style sheets"},
+    { "qid":4,"question":"Most programmer use","a":"A High level language","b":"A machine code","c":"A low level language","d":"An algorithm"},
+    { "qid":5,"question":"Resolving errors in a program in known as","a":"Debugging","b":"Error Checking","c":"Reflexing","d":"Problem solving"},
+    { "qid":6,"question":"The two categories of low level language are","a":"Machine code & Assembly","b":"Assembly & Algoritms","c":"Machine code & Algorithms","d":"Algoritms & Binary"},
+    { "qid":7,"question":"the software used to convert an assembly language program into machine code","a":"Assembler","b":"Interpreter","c":"Compiler","d":"Translator"}
+    ]
+}
